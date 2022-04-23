@@ -5,7 +5,7 @@ const options = {
     params: { location_id: '8014024', lang: 'en_US', currency: 'USD', limit: '20' },
     headers: {
         'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com',
-        'X-RapidAPI-Key': '25120c0ae9msh14be9ba510a0d42p1778a1jsn9f72457ba0a7'
+        'X-RapidAPI-Key': process.env.RAPID_API_KEY
     }
 }
 
